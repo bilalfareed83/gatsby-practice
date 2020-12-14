@@ -1,0 +1,18 @@
+.navBar {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBar > a {
+  color: azure;
+  text-decoration: none;
+  display: inline;
+  margin: 10px;
+  padding: 10px;
+}
+
+.navBar > a :hover {
+  color: brown;
+}

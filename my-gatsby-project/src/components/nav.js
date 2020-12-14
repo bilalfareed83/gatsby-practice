@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import Style from "./nav.module.css"
 export default function Nav() {
   return (
-    <div>
+    <div className={Style.navBar}>
       <Link to="/">Home</Link>
       <br />
       <Link to="/contact">Contact</Link>
